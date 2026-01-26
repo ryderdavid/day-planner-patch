@@ -1,0 +1,20 @@
+{
+  "name": "day-planner-patch",
+  "version": "1.0.0",
+  "description": "Patches Day Planner to treat [>] scheduled tasks as completed (hidden when showCompletedTasks is off)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "install-plugin": "./scripts/install.sh"
+  },
+  "keywords": ["obsidian", "plugin", "day-planner"],
+  "author": "Ryder Cobean",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}

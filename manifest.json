@@ -1,0 +1,9 @@
+{
+  "id": "day-planner-patch",
+  "name": "Day Planner Patch",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Patches Day Planner to treat [>] scheduled tasks as completed (hidden when showCompletedTasks is off)",
+  "author": "Ryder Cobean",
+  "isDesktopOnly": false
+}
