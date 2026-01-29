@@ -4,7 +4,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 PLUGIN_NAME="day-planner-patch"
-DEST="$HOME/Obsidian/Main/.obsidian/plugins/$PLUGIN_NAME"
+DEST="$HOME/Documents/Obsidian/Main/.obsidian/plugins/$PLUGIN_NAME"
 
 cd "$PROJECT_DIR"
 
